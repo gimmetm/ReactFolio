@@ -1,10 +1,10 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'GimmeTM',
-	title: 'Hello I\'m MinGyum Kim',
+	username: 'Gimme™',
+	title: 'Hello I\'m Gimme™',
 	subTitle: emoji(""),
-	role: "Cloud Application Engineer / Backend Developer",
+	role: "Indie Game Developer",
 	resumeLink: "",
 
 	// IMPORTANT
@@ -16,8 +16,8 @@ export const socialMediaLinks = {
 	// IMPORTANT
 	// if you don't have, change value to blank or false!! DO NOT DELETE!
 	github: 'https://github.com/gimmetm',
-	linkedin: 'https://www.linkedin.com/in/min-gyum-kim-29b522115/',
-	email: 'mingyum.kim@gmail.com',
+	linkedin: '',
+	email: 'gimmetm.net@gmail.com',
 	facebook: '',
 	twitter: "",
 	instagram: "",
@@ -29,9 +29,9 @@ export const skills = {
 	title: emoji("I Can Do ⚡"),
 	subTitle: "Cloud / Language / Framework",
 	describeSkills: [
-		emoji("✔ Project : AWS, Kubernetes, Java, Go, Spring, vue.js"),
-		emoji("✔ Study : GCP, python, react"),
-		emoji("✔ Hobby : Unity, C#"),
+		emoji("✔ Project Experience: AWS, Kubernetes, Java, Go, Spring, vue.js"),
+		emoji("✔ Learned : GCP, python, react"),
+		emoji("✔ Game : Unity, C#"),
 	],
 	// IMPORTANT
 	// You need to find className for font-awesome icon
@@ -68,7 +68,7 @@ export const experience = {
 			role: "Backend Developer",
 		}
 	],
-	view: true
+	view: false
 }
 
 export const openSourceProjects = {
@@ -117,7 +117,7 @@ export const projects = {
 		},
 
 	],
-	view: true
+	view: false
 }
 
 export const achievements = {
@@ -165,8 +165,7 @@ export const blogs = {
 
 export const contactInfo = {
 	title: "Contact To Me! 📞",
-	subTitle: "",
-	introduce: "Cloud application Engineer",
-	// introduce: emoji("❤"),
+	subTitle: "Also Cloud application Engineer(Backend, Frontend)",
+	introduce: emoji("Indie Game Developer 🤸"),
 	view: true
 }

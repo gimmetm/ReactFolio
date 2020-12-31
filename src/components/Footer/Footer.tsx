@@ -6,9 +6,8 @@ function Footer() {
     return (
         <footer>
             <div className="inner">
-
                 <div className="footer-content">
-                    <p>{emoji("Make By GimmeTM💙")}</p>
+                    <p>{emoji("Make By Gimme™")}</p>
                     <p style={{marginTop: "15px"}}>Theme By <a href="https://github.com/Ikalli/ReactFolio">ReactFolio</a></p>
                 </div>
 
